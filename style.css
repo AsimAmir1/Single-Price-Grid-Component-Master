@@ -1,0 +1,117 @@
+*{
+padding:0;
+margin:0;
+box-sizing:border-box;
+}
+
+@font-face{
+font-family:'karla';
+src:url(Karla-Bold.ttf);
+font-style:normal;
+font-weight:700;
+}
+
+@font-face{
+font-family:'karla';
+src:url(Karla-Regular.ttf);
+font-style:normal;
+font-weight:400;
+}
+
+body{background:hsl(204, 43%, 93%);}
+
+.container{padding:60px 30px;}
+
+.content-1{
+padding:30px 20px;
+background:#fff;
+border-radius:4px 4px 0 0;
+font-family:karla;
+}
+
+.content-1 h3{
+padding:20px 0;
+font-size:15px;
+color:hsl(71, 73%, 54%);
+}
+
+.content-1 h2{
+font-size:20px;
+color:hsl(179, 62%, 43%);
+}
+
+.content-1 p{
+font-size:14px;
+line-height:22px;
+color:hsl(218, 22%, 67%);
+font-family:700;
+}
+
+.content-2{
+padding:20px;
+background:hsl(179, 62%, 43%);
+color:#fff;
+font-family:karla;
+}
+
+.content-2 h3{
+display:flex;
+align-items:center;
+padding:20px 0;
+padding-bottom:10px;
+font-size:28px;
+}
+
+.content-2 h2{font-size:20px;}
+
+.content-2 h3 span{
+font-size:13px;
+margin-left:10px;
+opacity:50%;
+font-family:karla;
+font-weight:400;
+}
+
+.content-2 p{
+font-size:15px;
+line-height:22px;
+opacity:70%;
+font-family:700;
+}
+
+.content-2 .btn{
+display:flex;
+align-items:center;
+margin-top:20px;
+}
+
+.content-2 a{
+text-decoration:none;
+text-align:center;
+padding:12px;
+background:hsl(71, 73%, 54%);
+width:100%;
+color:#fff;
+border-radius:4px;
+font-family:700;
+}
+
+.content-3{
+padding:20px;
+background:#4ABEBD;
+color:#fff;
+border-radius:0 0 4px 4px;
+font-family:karla;
+}
+
+.content-3 h2{
+font-size:20px;
+padding:0 0 10px 0;
+}
+
+.content-3 p{
+padding-right:40px;
+line-height:22px;
+font-size:13px;
+opacity:70%;
+}
